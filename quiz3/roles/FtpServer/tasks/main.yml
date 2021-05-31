@@ -1,0 +1,8 @@
+---
+# tasks file for roles/FtpServer
+
+- name: install vsftpd
+  yum:
+    name: vsftpd
+    state: latest
+

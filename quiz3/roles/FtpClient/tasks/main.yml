@@ -1,0 +1,7 @@
+---
+# tasks file for roles/FtpClient
+
+- name: install ftpClient
+  yum: 
+    name: lftp
+    state: latest

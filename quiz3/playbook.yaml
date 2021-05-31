@@ -1,0 +1,12 @@
+---
+- name: Quiz3
+  hosts: target
+
+  tasks:
+  - name: Install ftpClient
+    include_role:
+      name: FtpClient
+
+  - name: Run ftpServer
+    include_role:
+      name: FtpServer
